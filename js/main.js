@@ -53,4 +53,7 @@ $(document).ready(function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
 	});
+	
+    // Match height
+    $('.services.js-matchHeight').matchHeight();
 });
